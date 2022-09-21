@@ -1,10 +1,10 @@
 function SivakToWatchList() {
-  const movies = ['Film1', 'Film2', 'Film3'];
+  const movies = ['Film 1', 'Film 2', 'Film 3'];
   const movieList = movies.map((item) => <li>{item}</li>)
   return (
     <div className="to_watch">
-      <h3> I'm Sivak's To-Watch List </h3>
-      <ul>{movieList}</ul>
+      <h3>My Favorite Watch List</h3>
+      <ol>{movieList}</ol>
     </div>
   );
 }
