@@ -21,22 +21,22 @@ function SimaMovieList() {
         </Row>
 
         <Row className="row-cols-2 row-cols-md-3 row-cols-lg-6 movie_row">
-          <Col className="col">
+          <Col>
             <img src="https://raw.githubusercontent.com/brixiobodino/coffeholic/main/image1.PNG" className="zoom"/>
           </Col>
-          <Col className="col">
+          <Col>
             <img src="https://raw.githubusercontent.com/brixiobodino/coffeholic/main/image1.PNG" className="zoom" />
           </Col>
-          <Col className="col">
+          <Col>
             <img src="https://raw.githubusercontent.com/brixiobodino/coffeholic/main/image1.PNG" className="zoom" />
           </Col>
-          <Col className="col">
+          <Col>
             <img src="https://raw.githubusercontent.com/brixiobodino/coffeholic/main/image1.PNG" className="zoom" />
           </Col>
-          <Col className="col">
+          <Col>
             <img src="https://raw.githubusercontent.com/brixiobodino/coffeholic/main/image1.PNG" className="zoom" />
           </Col>
-          <Col className="col">
+          <Col>
             <img src="https://raw.githubusercontent.com/brixiobodino/coffeholic/main/image1.PNG" className="zoom" />
           </Col>
         </Row>
@@ -48,22 +48,22 @@ function SimaMovieList() {
         </Row>
 
         <Row className=" row-cols-2 row-cols-md-3 row-cols-lg-6">
-          <Col className="col">
+          <Col>
             <img src="https://raw.githubusercontent.com/brixiobodino/coffeholic/main/image1.PNG" className="zoom" />
           </Col>
-          <Col className="col">
+          <Col>
             <img src="https://raw.githubusercontent.com/brixiobodino/coffeholic/main/image1.PNG" className="zoom" />
           </Col>
-          <Col className="col">
+          <Col>
             <img src="https://raw.githubusercontent.com/brixiobodino/coffeholic/main/image1.PNG" className="zoom" />
           </Col>
-          <Col className="col">
+          <Col>
             <img src="https://raw.githubusercontent.com/brixiobodino/coffeholic/main/image1.PNG" className="zoom" />
           </Col>
-          <Col className="col">
+          <Col>
             <img src="https://raw.githubusercontent.com/brixiobodino/coffeholic/main/image1.PNG" className="zoom" />
           </Col>
-          <Col className="col">
+          <Col>
             <img src="https://raw.githubusercontent.com/brixiobodino/coffeholic/main/image1.PNG" className="zoom" />
           </Col>
         </Row>
