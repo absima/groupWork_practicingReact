@@ -1,29 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'
-import './parts/arthi.css'
-import './parts/fi.css'
-import './parts/sima.css'
-import './parts/sivak.css'
-// import './App.css'
+
 import ArthiHeader from './parts/arthi.jsx'
 import FiCalendar from './parts/fi.jsx'
 import SivakToWatchList from './parts/sivak.jsx'
 import SimaMovieList from './parts/sima.jsx'
+import Container from 'react-bootstrap/Container';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'
 
 
 export default function MyApp() {
   return (
-    <div>
+    <Container>
       <h1>Welcome to MyFlix</h1>
       <ArthiHeader />
       <FiCalendar />
       <SivakToWatchList />
       <SimaMovieList />
       {/* <ArthiFooter /> */}
-    </div>
+    </Container>
   );
 }
 
