@@ -7,7 +7,7 @@ import './parts/fi.css'
 import './parts/sima.css'
 import './parts/sivak.css'
 // import './App.css'
-import { ArthiHeader, ArthiFooter } from './parts/arthi.jsx'
+import ArthiHeader from './parts/arthi.jsx'
 import FiCalendar from './parts/fi.jsx'
 import SivakToWatchList from './parts/sivak.jsx'
 import SimaMovieList from './parts/sima.jsx'
@@ -22,7 +22,7 @@ export default function MyApp() {
       <FiCalendar />
       <SivakToWatchList />
       <SimaMovieList />
-      <ArthiFooter />      
+      {/* <ArthiFooter /> */}
     </div>
   );
 }
