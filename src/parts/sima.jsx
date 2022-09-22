@@ -10,7 +10,7 @@ function SimaMovieList() {
   return (
     // <div className="container1 movie_list">
     <> 
-      <div className="container simapart">
+      <div className="container-fluid simapart">
         <div className="row bgrd">
           <div className="title_div">
             <span className="reco">Today's Recommendation</span>
@@ -25,7 +25,7 @@ function SimaMovieList() {
           </div>
         </div>
 
-        <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 movie_row">
+        <div className="row row row-cols-2 row-cols-md-3 row-cols-lg-6 movie_row">
           <div className="col">
             <img src="https://raw.githubusercontent.com/brixiobodino/coffeholic/main/image1.PNG" className="zoom"/>
           </div>
@@ -41,9 +41,10 @@ function SimaMovieList() {
           <div className="col">
             <img src="https://raw.githubusercontent.com/brixiobodino/coffeholic/main/image1.PNG" className="zoom" />
           </div>
-          {/* <div class="col">
-      <img src="https://raw.githubusercontent.com/brixiobodino/coffeholic/main/image1.PNG">
-          </div> */}
+          <div className="col">
+            <img src="https://raw.githubusercontent.com/brixiobodino/coffeholic/main/image1.PNG" className="zoom" />
+          </div>
+          {/* </div> */}
         </div>
 
         <div className="row">
@@ -52,7 +53,7 @@ function SimaMovieList() {
           </div>
         </div>
 
-        <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5">
+        <div className="row row-cols-2 row-cols-md-3 row-cols-lg-6">
           <div className="col">
             <img src="https://raw.githubusercontent.com/brixiobodino/coffeholic/main/image1.PNG" className="zoom" />
           </div>
@@ -68,9 +69,9 @@ function SimaMovieList() {
           <div className="col">
             <img src="https://raw.githubusercontent.com/brixiobodino/coffeholic/main/image1.PNG" className="zoom" />
           </div>
-          {/* <div class="col">
-      <img src="https://raw.githubusercontent.com/brixiobodino/coffeholic/main/image1.PNG">
-          </div> */}
+          <div className="col">
+            <img src="https://raw.githubusercontent.com/brixiobodino/coffeholic/main/image1.PNG" className="zoom" />
+          </div>
         </div>
       </div>
       
