@@ -1,5 +1,5 @@
 function SivakToWatchList() {
-  const movies = [{ title: 'Film 1', img: 'url' }, { title: 'Film 2' }, { title: 'Film 3' }];
+  const movies = ['Film 1', 'Film 2', 'Film 3'];
   const movieList = movies.map((item) => <li>{item}</li>)
   return (
     <div className="to_watch">
