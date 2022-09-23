@@ -3,9 +3,11 @@ import ArthiHeader from './parts/arthi.jsx'
 import FiCalendar from './parts/fi.jsx'
 import SivakToWatchList from './parts/sivak.jsx'
 import SimaMovieList from './parts/sima.jsx'
+import Footer from './parts/footer.jsx'
 import Container from 'react-bootstrap/Container';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap-icons/font/bootstrap-icons.css';
 import './App.css'
 
 
@@ -17,6 +19,7 @@ export default function MyApp() {
       <FiCalendar />
       <SivakToWatchList />
       <SimaMovieList />
+      <Footer />
     </Container>
   );
 }

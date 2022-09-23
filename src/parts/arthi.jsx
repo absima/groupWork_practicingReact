@@ -26,6 +26,7 @@ function NavScrollExample() {
               <NavDropdown.Item href="#action4" style={{ color: 'black' }}>
                 Favorite Movies
               </NavDropdown.Item>
+
               <NavDropdown.Item href="#action5" style={{ color: 'black' }}>
                 Favorite Series
               </NavDropdown.Item>
@@ -38,7 +39,7 @@ function NavScrollExample() {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="outline-success" style={{ color: 'black' }}>Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
