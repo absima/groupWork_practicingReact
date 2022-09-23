@@ -20,6 +20,7 @@
   margin: 2px;
   padding: 10px;
   border: 2px solid black;
+  border-radius: 10px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
