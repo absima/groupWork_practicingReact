@@ -1,6 +1,5 @@
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-
 import './fi.css'
 
 function FiCalendar() {
@@ -15,7 +14,15 @@ function FiCalendar() {
         </div>
         <div className="boxes">
           <div className="box">
-            <input type="text" id="whadda"></input>
+            <span className="number"></span>
+          </div>
+          <div className="box">
+            <span className="number"></span>
+          </div>
+          <div className="box">
+            <span className="number"></span>
+          </div>
+            <div className="box">
             <span className="number">1</span>
           </div>
           <div className="box">
@@ -109,16 +116,7 @@ function FiCalendar() {
             <span className="number">31</span>
           </div>
           <div className="box">
-            <span className="number">32</span>
-          </div>
-          <div className="box">
-            <span className="number">33</span>
-          </div>
-          <div className="box">
-            <span className="number">34</span>
-          </div>
-          <div className="box">
-            <span className="number">35</span>
+            <span className="number"></span>
           </div>
         </div>
       </div>
