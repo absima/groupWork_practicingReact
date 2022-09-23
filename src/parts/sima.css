@@ -12,12 +12,23 @@ h3 .trending{
   color: black;
 }
 
-img {
+
+img{
   width: 100%;
 	-webkit-box-reflect: below 5px
 		linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));
 }
-.zoom:hover {
+
+.movies{
+  max-height: 300px;
+  object-fit: cover;
+}
+.series{
+  max-height: 300px;
+  object-fit: cover;
+  margin-bottom: 20%;
+}
+.series:hover {
   transform: scale(1.5); 
   overflow: hidden;
   transition: transform 1.5s ease;
@@ -42,8 +53,8 @@ img {
 .title_div{
   color: white;
 }
-.button_perfumier{
-  margin-top: 100px;
-  background-color: red;
-  color: white;
+
+button{
+  
 }
+
